@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТОО «Предприятие теплоэнергетики»</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <header class="hero">
+    <div class="hero-overlay">
+        <div class="container hero-content">
+            <img src="logo.png" alt="Логотип ПТЭ" class="logo-white">
+            <!-- <h1 class="hero-title">Надежное теплоснабжение города Сатпаев</h1> -->
+        </div>
+    </div>
+</header>
+
+    <nav>
+        <a href="#about">О компании</a>
+        <a href="#announcements">Объявления</a>
+        <a href="#services">Услуги</a>
+        <a href="#tariffs">Тарифы</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+
+    <main>
+        <section id="about" class="container">
+            <h2>О предприятии</h2>
+            <p>ТОО «ПРЕДПРИЯТИЕ ТЕПЛОЭНЕРГЕТИКИ» — работающее в сфере производства тепловой энергии самостоятельными котельными.
+            Компания обслуживает жителей и организации региона, обеспечивая надежное теплоснабжение, и является частью важной инфраструктуры Сатпаева и области. Нас вдохновляет ответственная работа, влияющая на качество жизни людей, а команда гордится своей ролью в поддержании стабильности и комфорта в каждом доме.</p>
+        </section>
+
+        <!-- НОВЫЙ РАЗДЕЛ: ОБЪЯВЛЕНИЯ -->
+        <section id="announcements" class="container">
+            <h2 class="section-title">ОБЪЯВЛЕНИЯ</h2>
+            <div class="announcements-grid">
+                <div class="announcement-card urgent">
+                    <div class="announcement-date">Сегодня</div>
+                    <h3>Срочное уведомление</h3>
+                    <p>Просим потребителей проверить состояние внутридомовых узлов учета до конца текущей недели.</p>
+                </div>
+                <div class="announcement-card">
+                    <div class="announcement-date">15.03.2024</div>
+                    <h3>Плановые работы на сайте</h3>
+                    <p>В связи с разработкой официального сайта ТОО "ПРЕДПРЕЯТИЕ ТЕПЛОЭНЕРГЕТИКИ", возможны временные перебои в работе данного ресурса.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="container">
+            <h2 class="section-title">НАШИ УСЛУГИ</h2>
+            <div class="service-row">
+                <div class="service-col-title"><h3>Производство <br>тепловой энергии</h3></div>
+                <div class="service-col-text"><p>Обеспечение бесперебойного производства высококачественной тепловой энергии для жилого сектора и промышленных объектов города Сатпаев.</p></div>
+                <div class="service-col-img"><img src="service1.jpg" alt="Производство"></div>
+            </div>
+            <div class="service-row">
+                <div class="service-col-title"><h3>Передача и <br>распределение</h3></div>
+                <div class="service-col-text"><p>Эксплуатация и обслуживание магистральных сетей. Мы гарантируем стабильное давление в системе в отопительный период.</p></div>
+                <div class="service-col-img"><img src="service2.jpg" alt="Передача"></div>
+            </div>
+            <div class="service-row">
+                <div class="service-col-title"><h3>Техническое <br>обслуживание</h3></div>
+                <div class="service-col-text"><p>Регулярная диагностика, ремонт и модернизация котельного оборудования и тепловых пунктов.</p></div>
+                <div class="service-col-img"><img src="service3.jpg" alt="Обслуживание"></div>
+            </div>
+             <div class="service-row">
+                <div class="service-col-title"><h3>Проектирование и <br>аудит</h3></div>
+                <div class="service-col-text"><p>Разработка проектно-сметной документации для подключения новых объектов к системе теплоснабжения и проведение энергоаудита для повышения эффективности объектов.</p></div>
+                <div class="service-col-img"><img src="service4.jpg" alt="Проектирование"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tariffs" class="container">
+            <h2>Тарифы и документы</h2>
+            <p>Актуальные сведения об инвестиционных программах доступны по запросу.</p>
+            <button id="showTariff">Показать доступные документы</button>
+            <div id="tariffInfo" class="hidden">
+                <p>Тарифы утверждаются согласно законодательству РК и приказам ДКРЕМ.</p>
+            </div>
+        </section>
+    </main>
+
+<footer id="contacts" class="footer-hero">
+    <div class="footer-overlay">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Контакты</h3>
+                <p><strong>Юридический адрес:</strong> 101301, область Ұлытау, город Сатпаев, массив Улытауская, промзона, строение 168</p>
+                <p><strong>БИН:</strong> 260140012465</p>
+            </div>
+            <!-- Логотип в футере тоже сделаем белым для контраста -->
+            <img src="logo.png" alt="Логотип ПТЭ" class="logo-footer logo-white">
+        </div>
+    </div>
+</footer>
+
+    <button id="backToTop" class="back-to-top" title="Наверх">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
